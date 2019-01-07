@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_facebook" value="name:ID_facebook;datatype:int,name:facebookurl;datatype:string,name:width;datatype:string,name:height;datatype:string,name:theme;datatype:string,name:border;datatype:string,name:visible;datatype:int,name:showface;datatype:string" />
+</info>

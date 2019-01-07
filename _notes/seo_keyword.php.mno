@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_seo" value="name:tenwebsite;datatype:string,name:motawebsite;datatype:blob,name:tukhoaseo;datatype:blob" />
+</info>

@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapper {
+	width: 990px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	-moz-box-shadow: 4px 5px 18px #000000;
+	-webkit-box-shadow: 4px 5px 18px #000000;
+	box-shadow: 4px 5px 18px #000000;
+}
+.wrapper .banner {
+	height: 100px;
+	width: 980px;
+	background-image: url(header_background_xanhduong.jpg);
+	background-repeat: no-repeat;
+	text-align: right;
+	padding-top: 19px;
+	padding-right: 10px;
+}
+.clear {
+	clear: both;
+}
+
+.wrapper .menuchinh {
+	height: 30px;
+	width: 990px;
+	background-color: #0000CC;
+}
+.wrapper .content {
+	width: 990px;
+	overflow: auto;
+}
+.wrapper .footer {
+	width: 990px;
+	background-image: url(footer_xanhduong.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+	padding-top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 20px;
+}
+body {
+	margin: 0px;
+	background-color: #FFCC99;
+}
+.box_icon {
+	float: left;
+	height: 170px;
+	width: 128px;
+	margin-top: 10px;
+	margin-right: 18px;
+	margin-bottom: 10px;
+	margin-left: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+.linkxanh a {
+	font-size: 12px;
+	color: #0033CC;
+	text-decoration: none;
+}
+.linkxanh a:visited {
+}
+.linkxanh a:hover {
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: none;
+}

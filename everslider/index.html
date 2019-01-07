@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Everslider - Responsive jQuery Carousel Plugin</title>
+	<meta name="description" content="responsive jquery carousel plugin">
+	<meta name="author" content="flGravity">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/everslider.css">
+	<link rel="stylesheet" href="css/everslider-custom.css">
+	<!-- JavaScript -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/jquery.everslider.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){			
+			/* Fullwidth slider */
+			$('#fullwidth_slider').everslider({
+				mode: 'carousel',
+				moveSlides: 1,
+				slideEasing: 'easeInOutCubic',
+				slideDuration: 700,
+				navigation: true,
+				keyboard: true,
+				nextNav: '<span class="alt-arrow">Next</span>',
+				prevNav: '<span class="alt-arrow">Next</span>',
+				ticker: true,
+				tickerAutoStart: true,
+				tickerHover: true,
+				tickerTimeout: 2000
+			});
+		});
+	</script>
+    <link type="text/css" rel="stylesheet" href="../css/style1.css">
+</head>
+<body>
+		<section class="tinanh">
+        <header class="tinanh_title">TIN ẢNH</header>
+		<!-- fullwidth slider -->
+		<div class="grid_12">
+			<div id="fullwidth_slider" class="everslider fullwidth-slider">
+				<ul class="es-slides">
+					<li>
+						<img src="pictures/pic1.jpg" alt="Example">
+						<div class="fullwidth-title">
+							<a href="#">Tin số 1</a>
+							<span>Description 1</span>
+						</div>
+					</li>
+					<li>
+						<img src="pictures/pic2.jpg" alt="Example">
+						<div class="fullwidth-title">
+							<a href="#">Tin số 2</a>
+							<span>Description 2</span>
+						</div>
+					</li>
+					<li>
+						<img src="pictures/pic3.jpg" alt="Example">
+						<div class="fullwidth-title">
+							<a href="#">Tin số 3</a>
+							<span>Description 3</span>
+						</div>
+					</li>
+					<li>
+						<img src="pictures/pic4.jpg" alt="Example">
+						<div class="fullwidth-title">
+							<a href="#">Tin số 4</a>
+							<span>Description 4</span>
+						</div>
+					</li>
+					<li>
+						<img src="pictures/pic5.jpg" alt="Example">
+						<div class="fullwidth-title">
+							<a href="#">Tin số 5</a>
+							<span>Description 5</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- fullwidth slider -->
+		</section>
+</body>
+</html>

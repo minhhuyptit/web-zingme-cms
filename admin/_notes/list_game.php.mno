@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:tentheloaigame;datatype:string,name:ID_theloaigame;datatype:int" />
+	<infoitem key="UD_rsgame1" value="name:ID_theloaigame;datatype:string,name:tengame;datatype:string,name:hinhgame;datatype:string,name:taptingame;datatype:string,name:solanchoi;datatype:int,name:solandownload;datatype:int,name:hot;datatype:int,name:urlgame;datatype:string,name:ngaycapnhat;datatype:datetime,name:kiemduyet;datatype:int,name:ID_game;datatype:int" />
+</info>

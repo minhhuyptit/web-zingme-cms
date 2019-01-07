@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_chitiettin" value="name:ID_tintuc;datatype:int,name:tieudetin;datatype:string,name:ID_theloai;datatype:int,name:tentheloai;datatype:string,name:ID_theloaitin;datatype:int,name:tentheloaitin;datatype:string,name:solandoc;datatype:int,name:ngaycapnhat;datatype:datetime,name:trichdantin;datatype:blob,name:noidungtin;datatype:blob" />
+	<infoitem key="UD_rs_cacdanhmuctinkhac" value="name:ID_theloai;datatype:int,name:tentheloai;datatype:string,name:songaunhien;datatype:real" />
+	<infoitem key="UD_rs_tintuc_detail" value="name:ID_tintuc;datatype:int,name:tieudetin;datatype:string,name:hinhtrichdan;datatype:string,name:ID_theloai;datatype:int,name:cohinh;datatype:int,name:cophim;datatype:int" />
+</info>

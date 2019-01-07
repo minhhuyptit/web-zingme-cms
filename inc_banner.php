@@ -1,0 +1,1 @@
+<img src="<?=$url?>images/banner.png">

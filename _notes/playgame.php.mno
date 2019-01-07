@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_playgame" value="name:ID_game;datatype:int,name:tengame;datatype:string,name:hinhgame;datatype:string,name:taptingame;datatype:string,name:trichdangame;datatype:blob,name:noidunggame;datatype:blob,name:solanchoi;datatype:int,name:solandownload;datatype:int,name:urlgame;datatype:string" />
+</info>

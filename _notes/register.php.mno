@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_quequan" value="name:ID_quequan;datatype:int,name:tenquequan;datatype:string" />
+	<infoitem key="UD_rs_nghenghiep" value="name:ID_nghenghiep;datatype:int,name:tennghenghiep;datatype:string" />
+	<infoitem key="UD_rsthanhvien" value="name:hoten;datatype:int,name:diachi;datatype:int,name:email;datatype:int,name:gioitinh;datatype:int,name:ngaysinh;datatype:int,name:dienthoai;datatype:int,name:ID_quequan;datatype:int,name:ID_nghenghiep;datatype:int,name:username;datatype:int,name:password;datatype:int,name:chuthich;datatype:int,name:ngaycapnhat;datatype:int,name:ID_thanhvien;datatype:int" />
+</info>

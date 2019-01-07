@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rstheloaigame1" value="name:tentheloaigame;datatype:string,name:visiblemenu;datatype:int,name:visible;datatype:int,name:ID_theloaigame;datatype:int,name:sapxep;datatype:int" />
+</info>

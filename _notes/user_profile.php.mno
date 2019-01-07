@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_quequan" value="name:ID_quequan;datatype:int,name:tenquequan;datatype:string" />
+	<infoitem key="UD_rs_nghenghiep" value="name:ID_nghenghiep;datatype:int,name:tennghenghiep;datatype:string" />
+</info>

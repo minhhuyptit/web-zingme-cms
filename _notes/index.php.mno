@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_baianhvideo" value="name:ID_tintuc;datatype:int,name:tieudetin;datatype:string,name:hinhtrichdan;datatype:string,name:ID_theloai;datatype:int,name:cohinh;datatype:int,name:cophim;datatype:int" />
+	<infoitem key="UD_rs_master_theloai" value="name:ID_theloai;datatype:int,name:tentheloai;datatype:string,name:url;datatype:string,name:target;datatype:string,name:linkngoai;datatype:int" />
+	<infoitem key="UD_rs_detail_theloaitin" value="name:ID_theloaitin;datatype:int,name:tentheloaitin;datatype:string,name:url;datatype:string,name:target;datatype:string,name:linkngoai;datatype:int" />
+	<infoitem key="UD_rs_theloai_master" value="name:ID_theloai;datatype:int,name:tentheloai;datatype:string" />
+	<infoitem key="UD_rs_theloaitin_detail" value="name:ID_theloaitin;datatype:int,name:tentheloaitin;datatype:string,name:ID_theloai;datatype:int" />
+	<infoitem key="UD_rs_tintuc_detail" value="name:ID_tintuc;datatype:int,name:tieudetin;datatype:string,name:hinhtrichdan;datatype:string,name:trichdantin;datatype:blob,name:ID_theloai;datatype:int,name:cohinh;datatype:int,name:cophim;datatype:int" />
+	<infoitem key="UD_rs_danhmuctin1_master" value="name:ID_theloai;datatype:int,name:tentheloai;datatype:string" />
+	<infoitem key="UD_rs_danhmuctin2_detail" value="name:ID_theloaitin;datatype:int,name:tentheloaitin;datatype:string,name:ID_theloai;datatype:int" />
+	<infoitem key="UD_rs_nhomtin" value="name:ID_nhomtin;datatype:int,name:tennhomtin;datatype:string,name:ID_theloai;datatype:int" />
+	<infoitem key="UD_rs_tintuc" value="name:ID_tintuc;datatype:int,name:tieudetin;datatype:string,name:hinhtrichdan;datatype:string,name:ID_theloai;datatype:int" />
+	<infoitem key="UD_rs_theloaitin_master" value="name:ID_theloai;datatype:int,name:tentheloai;datatype:string,name:keyword;datatype:string,name:ID_theloaitin;datatype:int,name:tentheloaitin;datatype:string,name:keyseo;datatype:string,name:visible2;datatype:int,name:sapxep;datatype:int" />
+	<infoitem key="UD_rs_copyright" value="name:tenwebsite;datatype:string,name:diachi;datatype:string,name:dienthoai;datatype:string,name:email;datatype:string,name:website1;datatype:string,name:website2;datatype:string,name:website3;datatype:string" />
+	<infoitem key="UD_rs_logo" value="name:logo;datatype:string" />
+</info>

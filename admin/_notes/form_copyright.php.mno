@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rscopyright" value="name:tenwebsite;datatype:int,name:logo;datatype:int,name:diachi;datatype:int,name:dienthoai;datatype:int,name:email;datatype:int,name:website1;datatype:int,name:website2;datatype:int,name:website3;datatype:int,name:motawebsite;datatype:int,name:tukhoaseo;datatype:int,name:ID_copyright;datatype:int" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_danhmuctin1_master" value="name:ID_theloai;datatype:int,name:tentheloai;datatype:string,name:keyword;datatype:string" />
+	<infoitem key="UD_rs_danhmuctin2_detail" value="name:ID_theloaitin;datatype:int,name:keyseo;datatype:string,name:tentheloaitin;datatype:string,name:ID_theloai;datatype:int" />
+</info>

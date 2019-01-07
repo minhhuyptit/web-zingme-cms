@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteRule ^index.html$ index.php [L]
+RewriteRule ^ket-qua-tim-kiem.html$ ketquatim.php [L]
+RewriteRule ^trang-(.*)/(.*)/(.*).html$ layout_theloaitin.php?pageNum_rs_theloaitin=$1&keyword=$2&keyseo=$3 [L]
+RewriteRule ^a(.*)/b(.*)/c(.*)/(.*).html$ layout_chitiettin.php?cat=$1&subcat=$2&id=$3 [L]
+RewriteRule ^cat(.*)/detail(.*)/(.*).html$ layout_chitiettin.php?cat=$1&id=$2 [L]
+#RewriteRule ^menu(.*)/menu(.*)/(.*).html$ layout_theloaitin.php?cat=$1&subcat=$2 [L]
+RewriteRule ^gamecat(.*)/game(.*)/(.*).html$ layout_gameonline.php?cat=$1&id=$2 [L] 
+#RewriteRule ^trang-(.*)/(.*).html$ layout_theloai.php?pageNum_rs_theloai=$1&keyword=$2 [L]
+RewriteRule ^chuyende(.*)/(.*).html$ layout_cactinchuyende.php?chuyende=$1 [L]
+RewriteRule ^gamecat(.*)/(.*).html$ layout_danhmucgameonline.php?cat=$1 [L]
+RewriteRule ^(.*)/(.*).html$ layout_theloaitin.php?keyword=$1&keyseo=$2 [L]
+RewriteRule ^(.*).html$ layout_theloai.php?keyword=$1 [L]
+
+

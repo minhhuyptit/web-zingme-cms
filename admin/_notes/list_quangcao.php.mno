@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsquangcao1" value="name:tieude;datatype:string,name:taptinquangcao;datatype:blob,name:fileflash;datatype:string,name:url;datatype:string,name:target;datatype:string,name:vitri;datatype:string,name:visible;datatype:int,name:ID_quangcao;datatype:int,name:sapxep;datatype:int" />
+</info>

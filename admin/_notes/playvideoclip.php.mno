@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_playvideoclip" value="name:ID_videoclip;datatype:int,name:tenvideoclip;datatype:string,name:hinhvideoclip;datatype:string,name:taptinvideoclip;datatype:string,name:youtube;datatype:string" />
+</info>

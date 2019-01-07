@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:tentheloai;datatype:string,name:ID_theloai;datatype:int" />
+	<infoitem key="UD_Recordset2" value="name:ID_theloaitin;datatype:int,name:tentheloaitin;datatype:string,name:ID_theloai;datatype:int" />
+	<infoitem key="UD_rsnhomtin1" value="name:ID_theloai;datatype:string,name:ID_theloaitin;datatype:string,name:tennhomtin;datatype:string,name:ngaycapnhat;datatype:datetime,name:visible;datatype:int,name:ID_nhomtin;datatype:int" />
+</info>

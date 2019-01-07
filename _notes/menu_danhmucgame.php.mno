@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_master_theloai" value="name:ID_theloaigame;datatype:int,name:tentheloaigame;datatype:string" />
+	<infoitem key="UD_rs_detail_theloaitin" value="name:ID_theloaitin;datatype:int,name:tentheloaitin;datatype:string,name:url;datatype:string,name:target;datatype:string,name:linkngoai;datatype:int,name:ID_theloai;datatype:int" />
+</info>

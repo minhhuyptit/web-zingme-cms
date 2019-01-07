@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rstheloai" value="name:tentheloai;datatype:int,name:visiblemenu1;datatype:int,name:visible1;datatype:int,name:linkngoai;datatype:int,name:url;datatype:int,name:target;datatype:int,name:ID_theloai;datatype:int" />
+</info>

@@ -1,0 +1,2040 @@
+/* CSS Document */
+
+/* Start Play game */
+	.playgame{
+		width:100%;
+		text-align:center;
+		font-size:12px;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	.playgame h1{
+		font-size:14px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight:bold;
+		margin:5px;
+	}
+	.playgame p{
+		font-size:12px;
+		font-family:Arial, Helvetica, sans-serif;
+		margin:5px;
+	}
+	.game{
+		width:670px;
+		height:500px;
+	}
+/* End Play game */
+
+/* Start Các tin chuyên đề */
+	.title_chuyende{
+		width:100%;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		line-height:20px;
+		padding:5px auto;
+		text-align:center;
+		font-weight:bold;
+		text-transform:uppercase;
+		margin-bottom:10px;
+		background-color:#FF6600;
+		color:white; 
+	}
+/* End Các tin chuyên đề */
+
+/* Start các danh mục tin khác */
+	.cacdanhmuckhac{
+		width:210px;
+		height:280px;
+		float:left;
+		margin-right:20px;
+		margin-bottom:20px;
+	}
+	.cacdanhmuckhac_last{
+		width:210px;
+		height:280px;
+		float:left;
+		margin-bottom:20px;
+	}
+	.cacdanhmuckhac_title{
+		border-top:3px solid green;
+		border-bottom:1px solid gray;
+		line-height:30px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		height:30px;
+		text-transform:uppercase;
+		font-weight:bold;
+		color:#0033FF;
+	}
+	.cacdanhmuckhac_baiviet{
+		border-bottom:1px dashed gray;
+		padding:5px 0;
+		font-size:12px;
+		overflow:auto;
+	}
+	.cacdanhmuckhac_baiviet_last{
+		padding:5px 0;
+		font-size:12px;
+	}
+
+/* End các danh mục tin khác */
+.wrapper{
+	width:990px;
+	margin-top:0;
+	margin-right:auto;
+	margin-bottom:0;
+	margin-left:auto;	
+}
+
+/*Start Đổi màu danh mục con*/
+.maunendanhmuccon{
+	background-color:#FFFF00;
+}
+/*End Đổi màu danh mục con*/
+
+.quangcao{
+	width:100%;
+	text-align:center;
+}
+body{
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+/*Start Header*/
+.header_top{
+	width:100%;
+	height:35px;
+	background-color: #000;
+	color: #FFF;
+}
+.logo{
+	width:70px;
+	height:22px;
+	float:left;
+	padding-top:6px;
+}
+.search{
+	width:480px;
+	height:35px;
+	float:left;
+	padding-top:7px;
+	text-align:center;
+}
+.bookmark{
+	width:300px;
+	height:35px;
+	float:left;
+	text-align:center;
+	line-height:35px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.choose_style{
+	width:140px;
+	float:right;
+	text-align:center;
+	padding-top:6px;
+}
+.wrapper_header, .wrapper_menu{
+	width:990px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.bg_menu{
+	width:100%;
+	background:#CCC;
+	height:56px;
+}
+/*End Header*/
+.banner{
+	width:100%;
+	height: auto;	/*Auto*/
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align:center;
+}
+.content{
+	width:100%;
+	clear:both;
+}
+.content_left{
+	width: 67.67677%;
+	float:left;
+}
+.content_right{
+	width: 30.30303%;
+	float:right;
+}
+.sitemap{
+	padding-left:20px;
+/*	width:100%;*/
+	height:auto; /*Auto*/
+	clear:both;
+}
+.qc{
+	margin-bottom:10px;
+}
+/*Start sitemap_box*/
+.sitemap_box{
+	width: 15%;
+	height:100px;
+	float:left;
+	padding-top:10px;
+	margin-right: 1.5%;
+	margin-top:20px;
+	margin-bottom:10px;
+	border-right: 1px dotted #333333;
+}
+.sitemap_box header{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.sitemap_box p{
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:20px;
+	padding-left:15px;
+}
+/*End sitemap_box*/
+
+/*Start sitemap_box nằm ở cuối bên phải*/
+.sitemap_box_1{
+	width: 15%;
+	height:100px;
+	float:left;
+	padding-top:10px;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+.sitemap_box_1 header{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.sitemap_box_1 p{
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:20px;
+	padding-left:15px;
+}
+.facebook{
+	text-align:center;
+}
+/*End sitemap_box nằm ở cuối bên phải*/
+
+/*Start tin tức*/
+.tintucmoi{
+	width:670px;
+}
+.tintucmoi p{
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.tintucmoi_col_1{
+	width: 470px;
+	float:left;
+}
+.tintucmoi_col_1 h2{
+	font-size:20px;
+	margin:5px 0;
+}
+.tintucmoi_col_2{
+	width:180px;
+	height:530px;
+	overflow:auto;
+	background:white; 
+	-webkit-border-radius:3px; 
+	-moz-border-radius:3px; 
+	border-radius:3px;
+	float:right;
+}
+.tintuc_2_4{
+	margin-top:10px;
+	width:150px;
+	margin-right:10px;
+	float:left;
+}
+.tintuc_2_4 h1, .tintuc_2_4_last h1{
+	margin:5px;
+}
+.tintuc_2_4_last{
+	margin-top:10px;
+	width:150px;
+	float:left;
+}
+/*End tin tức*/
+.footer{
+	font-size:15px;
+	line-height:20px;
+	clear:both;
+	width:100%;
+	height:auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+	background: linear-gradient(to bottom, white 15%, #67E7ED 100%);
+	border-top:1px dashed #666;
+}
+
+/*Start Bài ảnh & Video*/
+.baianhvideo{
+	width:670px;
+	clear:both;
+}
+.baianhvideo_title{
+	width:655px; /*Vì padding-left thụt 15px nên width = 670 - 15*/
+	height:40px;
+	background:linear-gradient(to bottom, white 5%, #4cd1e4 100%);
+	font-size:20px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#F60;
+	text-transform:uppercase;
+	line-height:40px;
+	padding-left:15px;
+	margin-bottom:10px;
+	border-bottom: 1px solid #069;
+}
+.box_baianhvideo{
+	width:160px;
+	height:200px;
+	margin-right:10px;
+	float:left;
+}
+.box_baianhvideo_last{
+	width:160px;
+	height:200px;
+	float:left;
+}
+.box_baianhvideo h4, .box_baianhvideo_last h4{
+	margin-top:5px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:16px;
+}
+.box_baianhvideo h4 img, .box_baianhvideo_last h4 img{
+	margin-left:7px;
+}
+/*End Bài ảnh & Video*/
+
+/*Start tin tức mới theo thể loại*/
+.tintucmoitheloai{
+	width:670px;
+	float:left;	/*Nếu không float:left lại thì không chỉnh được margin hay gì cả vì nó tự hiểu vừa đủ 670px là tự đông xún dòng*/
+	clear:both;
+	margin-bottom:20px;
+}
+.tintucmoitheloai_title{
+	width:670px;
+	height:35px;
+	line-height:35px;
+	background: linear-gradient(to bottom, white 10%, #b2f0f0 100%);
+	margin-bottom:10px;
+	border-bottom:1px solid #0CF;
+}
+.tintucmoitheloai_cen{
+	width:670px;
+}
+.tintheloai_col_1{
+	width:370px;
+	height:180px;
+	float:left;
+}
+.tintheloai_col_2{
+	width:290px;
+
+	float:right;
+}
+.tintheloai_3_6 h5{
+	font-size:12px;
+	margin:0px;
+	line-height:20px;
+	background-image:url(../images/bullet_icon.png);
+	background-repeat:no-repeat;
+	background-position: 0px 7px;
+	padding-left:10px;
+}
+.tintheloai_3_6{
+	clear:both;
+}
+.tintheloai_2 h5{
+	font-size:14px;
+}
+.tintheloai_1 h5{
+	font-size:16px;
+	margin:0px;
+}
+.tintheloai_2 h5{
+	font-size:15px;
+	margin:0px;
+}
+.tintheloai_1 p{
+	font-size:12px;
+	margin:10px;
+	line-height:16px;
+}
+.tentheloai{
+	box-sizing:border-box;
+	background:white;
+	width: fit-content;
+	border-top: 1px solid #0CF;
+	border-right: 1px thick #0CF;
+	border-radius: 0 33px 0 0;
+	padding-right:20px;
+	padding-left:5px;
+}
+.tentheloai img{
+	position:relative;
+	top:3px;
+}
+/*End tin tức mới theo thể loại*/
+
+/*Start tin tức theo chuyên đề*/
+.chuyendemoinhat{
+	margin-bottom:25px;
+	width:300px;
+	border-top:3px solid #000;
+	border-right:1px solid #999;
+	border-bottom:1px solid #999;
+	border-left:1px solid #999;
+}
+.chuyendemoinhat_title{
+	font-size:14px;
+	font-weight:bold;
+	padding-left:10px;
+	border-bottom:1px solid #999;
+	height:35px;
+	line-height:35px;
+	box-sizing:border-box;
+	background-image:url(../images/play_down_icon.png);
+	background-repeat:no-repeat;
+	background-position: 95% 45%;
+}
+.chuyendemoinhat_cen{
+	padding: 5px 10px 0px 10px;
+}
+.baiviet_1{
+	border-bottom:1px solid #999;
+}
+.baiviet_1 h5{
+	margin:10px 0px;
+	font-size:14px;
+	font-weight:bold;
+}
+.baiviet h5{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	margin: 8px 0px;
+	background-image:url(../images/play_red_icon.png);
+	background-repeat:no-repeat;
+	padding-left:18px;
+	background-position: 0px -1px;
+}
+.xemthem{
+	text-align:center;
+	background:#FFF;
+	margin-left:auto;
+	margin-right:auto;
+	width:100px;
+	height:24px;
+	line-height:24px;
+	position:relative;
+	bottom:-10px;
+}
+/*End tin tức theo chuyên đề*/
+
+/*Start tin đọc nhiều*/
+.tindocnhieu{
+	width:300px;
+	border-top:3px solid #F60;
+	border-right:1px solid #999;
+	border-bottom:1px solid #999;
+	border-left:1px solid #999;
+	margin-bottom:15px;
+}
+.tindocnhieu_title{
+	font-size:16px;
+	font-weight:bold;
+	padding-left:10px;
+	border-bottom:1px solid #999;
+	height:35px;
+	line-height:35px;
+	box-sizing:border-box;
+	color:#F60;
+}
+.baiviet{
+	border-bottom:1px solid #999;
+	padding:10px 0px;
+}
+.baiviet_last{
+	padding:10px 0px;
+}
+.baiviet h3, .baiviet_last h3{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	margin:5px 0px;
+}
+.baiviet p, .baiviet_last p{
+	font-size:10px;
+	color:#999;
+	margin:0;
+}
+.sothutu{
+	width:25px;
+	height:25px;
+	background-color:red;
+	color:white;
+	padding:7px 5px 5px 5px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	float:left;
+	border-radius:70%;
+	-moz-border-radius:70%;
+	-webkit-border-radius: 70%;
+	line-height:25px;
+	margin-right:10px;
+	margin-bottom:10px;
+	margin-left:5px;
+}
+.sothutu_xanh{
+	width:25px;
+	height:25px;
+	background-color:green;
+	color:white;
+	padding:7px 5px 5px 5px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	float:left;
+	border-radius:70%;
+	-moz-border-radius:70%;
+	-webkit-border-radius: 70%;
+	line-height:25px;
+	margin-right:10px;
+	margin-bottom:10px;
+	margin-left:5px;
+}
+/*End tin đọc nhiều*/
+
+
+/*Start Blog*/
+.blog{
+	width:670px;
+	clear:both;
+	margin-bottom:20px;
+}
+.blog_title{
+	font-family:Arial, Helvetica, sans-serif;
+	width:655px;
+	height:40px;
+	line-height:40px;
+	font-size:20px;
+	font-weight:bold;
+	background:linear-gradient(to bottom, white 5%, #4cd1e4 100%);
+	padding-left:15px;
+	color:#F60;
+}
+.box_blog{
+	width:160px;
+	height:275px;
+	float:left;
+	margin-right:10px;
+	border-right:1px dashed #E8E8E8;
+	box-sizing:border-box;
+}
+.box_blog_last{
+	width:160px;
+	height:275px;
+	float:left;
+}
+.box_blog_title{
+	text-transform:uppercase;
+	font-size:15px;
+	font-weight:bold;
+	padding: 10px 0px 5px 5px;
+}
+.blog_tin_1 h5{
+	margin:5px 0px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-stretch:expanded;
+}
+.blog_tin_2_3 h5{
+	font-size:12px;
+	font-weight:normal;
+	margin:10px 0px;
+	padding-left:11px;
+	background-image:url(../images/bullet_icon.png);
+	background-repeat:no-repeat;
+	background-position:1px 4px;
+}
+/*End Blog*/
+
+/*Start game online*/
+.gameonline{
+	width:670px;
+	clear:both;
+	float:left;
+	margin-top:30px;
+}
+.gameonline_title{
+	width:670px;
+	height:20px;
+	margin-bottom:10px;
+	background:#00C;
+	color:#F30;
+	font-weight:bold;
+	font-size:16px;
+}
+.bg_gameonline{
+	line-height:30px;
+	text-align:center;
+	background:white;
+	padding:5px 20px;
+	position:relative;
+	left:35px;
+	bottom:5px;
+}
+.box_game{
+	width:160px;
+	float:left;
+	margin-right:10px;
+	text-align:center;
+}
+.box_game_last{
+	width:160px;
+	float:left;
+	text-align:center;
+}
+.box_game h5, .box_game_last h5{
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 5px 0 0 0;
+}
+/*End game online*/
+
+.tinanh{
+	width:100%;
+}
+.tinanh_title{
+	font-size:14px;
+	font-weight:bold;
+	color:#F60;
+	padding-left:10px;
+	border-top:3px solid #F30;
+	height:30px;
+	line-height:30px;
+}
+
+/*Các CSS phụ*/
+.chudendam{
+	font-weight:bold;
+}
+.linkden a{
+	color:#000;
+	font-size:inherit;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.linkden a:visited{
+	color:#000;
+	font-size:12px;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.linkden a:hover{
+	color:#FF0000;
+	font-size:inherit;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.canhlechohinh{
+	float:left;
+	margin-right:10px;
+}
+.linkcam a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:inherit;
+	text-decoration:none;
+	color:#F60;
+	font-weight:bold;
+}
+.linkcam a:visited{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-decoration:none;
+	color:#F60;
+	font-weight:bold;
+}
+.linkcam a:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:inherit;
+	text-decoration:underline;
+	color:#F60;
+	font-weight:bold;
+}
+.ptit a{
+	font-size:16px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FF0;
+	text-decoration:none;
+}
+
+.ptit a:visited{
+	color:#FF0;
+}
+
+.ptit a:hover{
+	color:#C00;
+}
+
+/*Start Tin tức theo thể loại*/
+.tintuctheotheloai {
+	width: 670px;
+}
+.tintuctheotheloai_title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 30px;
+	font-weight: bold;
+	height: 30px;
+	width: 670px;
+	border-bottom:1px dashed gray;
+	margin-bottom:10px;
+}
+.tintuctheotheloai_baiviet {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	overflow:hidden;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	border-bottom:1px dotted gray;
+}
+.tintuctheotheloai_baiviet h1{
+font-size:12px;
+	margin:0px;
+}
+.tintuctheotheloai_baiviet p{
+	margin:5px;
+}
+.tintuctheotheloai_baiviet_17_26 h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	background-image:url(../images/bullet_icon.png);
+	background-repeat:no-repeat;
+	background-position:20px 5px;
+	padding-left:30px;
+	margin:5px;
+}
+.tieudetintuckhac{
+	color:#FF0000;
+	font-size:16px;
+	font-weight:bold;
+	margin-left:10px;
+}
+.date-time{
+	color:#999999;
+	font-style:italic;
+	font-size:11px;
+}
+.phantrang
+{
+   text-align:center;
+   margin-top:20px;
+   margin-bottom:20px;
+   width:670px;
+   clear:both;
+}
+
+.boxes { 
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 12px;
+margin:0;padding:0;
+} 
+
+.boxes a:link, .boxes a:visited, .boxes a:active{ 
+color:black; 
+background-color: #FFFFFF; 
+border: 1px solid #FF0000; 
+margin: 1px; 
+text-decoration: none; 
+padding: 1px 5px; 
+} 
+
+.boxes a:hover { 
+color:white; 
+background: #000000; 
+border: 1px solid #FF0000; 
+margin: 1px; 
+text-decoration: none; 
+padding: 1px 5px; 
+}
+
+.current { 
+background-color: #FF0000; 
+border: 1px solid #FF0000; 
+color: #FFFFFF; 
+font-weight: bold; 
+margin: 1px; 
+padding: 1px 5px; 
+}
+/*End Tin tức theo thể loại*/
+
+/*Start Tin Tiêu Điểm*/
+	.tintieudiem{
+		width:300px;
+		clear:both;
+		border:1px solid gray;
+		box-sizing:border-box;
+		margin-bottom:10px;
+	}
+	.tintieudiem_title{
+		padding-left:5px;
+		height:30px;
+		line-height:30px;
+		background-color:#0033FF;
+		color:white;
+		font-weight:bold;	
+	}
+	.tintieudiem_baiviet{
+		overflow:auto;
+		margin:5px;
+		margin-bottom:10px;
+		padding-bottom:10px;
+		border-bottom:1px dashed gray;
+	}
+	.tintieudiem_baiviet_cuoi{
+		overflow:auto;
+		margin:5px;
+		margin-bottom:5px;
+		padding-bottom:10px;
+	}
+	.tintieudiem_baiviet h1, .tintieudiem_baiviet_cuoi h1{
+		margin:0px;
+	}
+	.tintieudiem_baiviet p, .tintieudiem_baiviet_cuoi p{
+		margin:5px;
+		color:#999999;
+		font-size:12px;
+		font-style:italic;
+	}
+/*End Tin Tiêu Điểm*/
+
+
+/*Start Kết quả tìm*/
+	.ketquatimkiem{
+		width:670px;
+	}
+	.ketquatim_title{
+		height:auto;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		line-height:30px;
+		background-color:#FF6600;
+		color:white;
+		margin-bottom:10px;
+		padding-left:8px;
+	}
+	.ketquatim_baiviet{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		border-bottom:1px solid gray;
+		margin-bottom:8px;
+		padding-bottom:10px;
+		overflow:hidden;
+	}
+	.ketquatim_baiviet h1{
+		margin:5px;
+		font-size:16px;
+	}
+	.ketquatim_baiviet p{
+		margin:5px;
+	}
+/*End Kết quả tìm*/
+
+.chudam{
+	font-weight:bold;
+}
+.search_error{
+	width:670px;
+	height:30px;
+	background-color:#FF2D32;
+	color:white;
+	font-weight:bold;
+	font-size:16px;
+	text-align:center;
+	line-height:30px;
+}
+.ketquatim_info{
+	width:670px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+
+/*Start Chi tiết bài viết*/
+	.chitietbaiviet{
+		width:100%;
+	}
+	.chitietbaiviet_title{
+		width:100%;
+		height:auto;
+		line-height:30px;
+		border-bottom:1px solid gray;
+	}
+	.chitietbaiviet_content{
+		width:100%;
+	}
+	.chitietbaiviet_content h1{
+		font-size:18px;
+		font-family:Arial, Helvetica, sans-serif;
+		margin:0px;	
+	}
+/*End Chi tiết bài viết*/
+
+
+/*Định nghĩa cho Smart Phone*/
+@media only screen and (min-width:240px) and (max-width:319px){
+	/*.banner img{
+		width:100%;
+	}*/
+	/*.quangcao img{
+		width:100%;
+	}*/
+	.game{
+		width:100%;
+		height:280px;
+	}
+	.facebook{
+		display:none;
+	}
+	.banner,
+	.quangcao{
+		display:none;
+	}
+	.sitemap_box, .sitemap_box_1{
+		width:100%;
+		height:auto;
+		margin-right:0;
+		margin-top:0;
+		border-right:0;
+		border-bottom:1px dotted #333333;
+	}
+	.sitemap{
+		display:none;
+		padding-left:10px;
+		text-align:center;
+	}
+	.wrapper{
+		width:100%;
+	}
+	.content_left{
+		width:100%;
+		float:none;
+	}
+	.content_right{
+		width:100%;
+		float:none;
+	}
+	.tintucmoi{
+		width:100%;
+	}
+	.tintucmoi_col_1{
+		width: 100%;
+		float:none;
+	}
+	.tintucmoi_col_1 img{
+		width:90%;
+		margin: 2% 0% 2% 4%;
+		height:auto;
+	}
+	.tintucmoi_col_2{
+		clear:both;
+		width: 80%;
+		float:none;
+		margin-left:10%;
+		border: 1px dotted black;
+		box-sizing:border-box;
+		padding:20px;
+	}
+	.tintuc_5_12 img{
+		display:none;
+	}
+	.tintuc_1 img{
+		width:100%;
+	}
+	.tintuc_2_4{
+		float:left;
+		width:46%;
+		margin-right:2%;
+		margin-left:2%;
+	}
+	.tintuc_2_4 img{
+		width:100%;
+	}
+	.tintuc_2_4_last{
+		display:none;
+	}
+	.stt-1, .stt-2, .stt-3, .stt-4, .stt-5, .stt-6, .vertical-bar-1, .vertical-bar-2, .vertical-bar-3, .vertical-bar-4, .vertical-bar-5, .vertical-bar-6{
+		display:none;
+	}
+	.baianhvideo{
+		margin-top:20px;
+		width:100%;
+		clear:both;
+	}
+	.baianhvideo_title{
+		padding-left:2%;
+		width:98%;
+	}
+	.box_baianhvideo, .box_baianhvideo_last{
+		width:46%;
+		margin-right:2%;
+		margin-left:2%;
+		float:left;
+	}
+	.box_baianhvideo img:nth-child(1), .box_baianhvideo_last img:nth-child(1){
+		width: 100%;
+	}
+	.tintucmoitheloai{
+		width:100%;
+	}
+	.tintucmoitheloai_title{
+		width:100%;
+		height:auto;
+	}
+	.tintheloai_col_1{
+		width:100%;
+		height:auto;
+		float:none;
+	}
+	.tintheloai_col_2{
+		width:100%;
+		float:none;
+	}
+	.tintheloai_1{
+		width:100%;
+	}
+	.tintheloai_1 img{
+		width:80%;
+		margin-left:10%;
+		margin-right:10%;
+	}
+	.tintheloai_2 img{
+		display:none;
+	}
+	.tintheloai_2{
+		margin-top:15px;
+		margin-left:10px;
+		margin-bottom:10px;
+		float:left;
+		clear:both;
+	}
+	.tintucmoitheloai_cen{
+		width:100%;
+	}
+	.tintheloai_3_6 h5{
+		margin-left:10px;
+		margin-top:5px;
+		line-height:20px;
+		font-size:11px;
+	}
+	.tintheloai_3_6{
+		margin-left:20px;
+		margin-right:5%;
+		background:#EEE;
+		border-radius: 50px;
+	}
+	.hide_away{
+		display:none;
+	}
+	.hide_all{
+		display:none;
+	}
+	.chuyendemoinhat{
+		width:100%;
+		box-sizing:border-box;
+	}
+	.baiviet_1{
+		text-align:center;
+	}
+	.baiviet_1 img{
+		width:100%;
+	}
+	.tindocnhieu{
+		clear:both;
+		width:100%;
+		box-sizing:border-box;
+	}
+	.blog{
+		width:100%;
+	}
+	.blog_title{
+		width:98%;
+		padding-left:2%;
+	}
+	.box_blog, .box_blog_last{
+		width:auto;
+		height:auto;
+		float:none;
+		border-right:0;
+		padding-left:10px;
+	}
+	.box_blog_title{
+		font-size:20px;
+	}
+	.blog_tin_2_3 h5{
+		clear:both;
+		font-size:16px;
+	}
+	.blog_tin_1 img{
+		float:left;
+		width:45%;
+	}
+	.blog_tin_1 h5{
+		float:right;
+		width:53%;
+		font-size:14px;
+	}
+	.gameonline{
+		display:none;
+	}
+	.wrapper_menu{
+		width:100%;
+	}
+		/*Start Header*/
+	.header_top{
+		width:100%;
+		height:50%;
+		background-color: #000;
+		color: #FFF;
+	}
+	.logo{
+		width:10%;
+		height:22px;
+		float:left;
+		padding-top:2%;
+	}
+	.search{
+		width:70%;
+		height:35px;
+		float:right;
+		padding-top:3%;
+		padding-right:5%;
+		text-align:center;
+	}
+	.bookmark{
+		clear:both;
+		width:auto;
+		height:35px;
+		float:none;
+		text-align:center;
+		line-height:35px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+	}
+	.choose_style{
+		/*width:auto;
+		float:none;
+		text-align:center;
+		padding-top:6px;*/
+		display:none;
+	}
+	.wrapper_header, .wrapper_menu{
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.bg_menu{
+		width:100%;
+		background:#CCC;
+		height:56px;
+	}
+	.keyword{
+		width:80%;
+	}
+	/*End Header*/
+	.tintuctheotheloai, .tintuctheotheloai_title{
+		width:100%;
+		height:auto;
+	}
+	.tintuctheotheloai_baiviet > img{
+		margin-left:5%;
+		width:90%;
+		height:auto;
+	}
+	#hinhdautien{
+		margin-left:5%;
+		width:90%;
+		height:auto;
+	}
+	.tintuctheotheloai_baiviet h1{
+		clear:both;
+		padding-top:10px;
+		padding-left:10px;
+	}
+	.date-time{
+		padding-left:5px;
+	}
+	.phantrang{
+	 width:100%;
+	}
+	.tintieudiem{
+		width:100%;
+	}
+	
+	/*Start Kết quả tìm*/
+	.ketquatimkiem{
+		width:100%;
+	}
+	.ketquatim_title{
+	}
+	.ketquatim_baiviet{
+		width:100%;
+	}
+	.ketquatim_baiviet img{
+		width:90%;
+		height:auto;
+		padding-left:5%;
+		margin-bottom:10px;
+		
+	}
+	.ketquatim_baiviet h1{
+		padding-left:5%;
+	}
+	.ketquatim_baiviet p{
+		padding-left:5%;
+		margin:5px;
+	}
+	.ketquatim_info{
+		width:100%;
+		line-height:20px;
+		height:20px;
+	}
+/*End Kết quả tìm*/
+	.search_error{
+		width:100%;
+		height:auto;
+	}
+	
+	.cacdanhmuckhac, .cacdanhmuckhac_last{
+		width:96%;
+		padding-left:2%;
+		height:auto;
+		margin-bottom:20px;
+	}
+}
+@media only screen and (min-width:320px) and (max-width:479px){
+	/*.banner img{
+		width:100%;
+	}*/
+	/*.quangcao img{
+		width:100%;
+	}*/
+	.game{
+		width:100%;
+		height:400px;
+	}
+	.facebook{
+		display:none;
+	}
+	.banner, 
+	.quangcao{
+		display:none;
+	}
+	.sitemap_box, .sitemap_box_1{
+		width:100%;
+		height:auto;
+		margin-right:0;
+		margin-top:0;
+		border-right:0;
+		border-bottom:1px dotted #333333;
+	}
+	.sitemap{
+		display:none;
+		padding-left:10px;
+		text-align:center;
+	}
+	.wrapper{
+		width:100%;
+	}
+	.content_left{
+		width:100%;
+		float:none;
+	}
+	.content_right{
+		width:100%;
+		float:none;
+	}	
+	.footer{
+		font-size:11px;
+	}
+	.tintucmoi{
+		width:100%;
+	}
+	.tintucmoi_col_1{
+		width: 100%;
+		float:none;
+	}
+	.tintucmoi_col_1 img{
+		width:90%;
+		margin: 2% 0% 2% 4%;
+		height:auto;
+	}
+	.tintucmoi_col_2{
+		clear:both;
+		width: 80%;
+		float:none;
+		margin-left:10%;
+		border: 1px dotted black;
+		box-sizing:border-box;
+		padding:20px;
+	}
+	.stt-2, .stt-3, .stt-4, .stt-5, .stt-6, .vertical-bar-1, .vertical-bar-2, .vertical-bar-3, .vertical-bar-4, .vertical-bar-5, .vertical-bar-6{
+		display:none;
+	}
+	.tintuc_5_12 img{
+		display:none;
+	}
+	.tintuc_1 img{
+		width:100%;
+	}
+	.tintuc_2_4{
+		float:left;
+		width:46%;
+		margin-right:2%;
+		margin-left:2%;
+	}
+	.tintuc_2_4 img{
+		width:100%;
+	}
+	.tintuc_2_4_last{
+		display:none;
+	}
+	.baianhvideo{
+		margin-top:20px;
+		width:100%;
+		clear:both;
+	}
+	.baianhvideo_title{
+		padding-left:2%;
+		width:98%;
+	}
+	.box_baianhvideo, .box_baianhvideo_last{
+		width:46%;
+		margin-right:2%;
+		margin-left:2%;
+		float:left;
+	}
+	.box_baianhvideo > img, .box_baianhvideo_last > img{
+		width: 100%;
+	}
+	.tintucmoitheloai{
+		width:100%;
+	}
+	.tintucmoitheloai_title{
+		width:100%;
+		height:auto;
+	}
+	.tintheloai_col_1{
+		width:100%;
+		float:none;
+	}
+	.tintheloai_col_2{
+		width:100%;
+		height:auto;
+		float:none;
+	}
+	.tintheloai_1{
+		width:100%;
+	}
+	.tintheloai_2 img{
+		display:none;
+	}
+	.tintheloai_2{
+		margin-top:15px;
+		margin-left:10px;
+		margin-bottom:10px;
+		float:left;
+		clear:both;
+	}
+	.tintucmoitheloai_cen{
+		width:100%;
+	}
+	.tintheloai_3_6 h5{
+		margin-left:10px;
+		margin-top:5px;
+		line-height:20px;
+	}
+	.tintheloai_3_6{
+		margin-left:20px;
+		margin-right:5%;
+		background:#EEE;
+		border-radius: 50px;
+	}
+	.hide_away{
+		display:none;
+	}
+	.chuyendemoinhat{
+		width:100%;
+		box-sizing:border-box;
+	}
+	.baiviet_1{
+		text-align:center;
+	}
+	.tindocnhieu{
+		clear:both;
+		width:100%;
+		box-sizing:border-box;
+	}
+	.blog{
+		width:100%;
+	}
+	.blog_title{
+		width:98%;
+		padding-left:2%;
+	}
+	.box_blog, .box_blog_last{
+		width:auto;
+		height:auto;
+		float:none;
+		border-right:0;
+		padding-left:10px;
+	}
+	.box_blog_title{
+		font-size:20px;
+	}
+	.blog_tin_2_3 h5{
+		clear:both;
+		font-size:16px;
+	}
+	.blog_tin_1 img{
+		float:left;
+		width:45%;
+	}
+	.blog_tin_1 h5{
+		float:right;
+		width:53%;
+		font-size:14px;
+	}
+	.gameonline, .gameonline_title, .bg_gameonline{
+		width:100%;
+	}
+	.box_game, .box_game_last{
+		float:left;
+		margin-bottom:20px;
+		width:100%;
+	}
+	.box_game img,.box_game_last img {
+		width:70%;
+	}
+	.wrapper_menu{
+		width:100%;
+	}
+		/*Start Header*/
+	.header_top{
+		width:100%;
+		height:50%;
+		background-color: #000;
+		color: #FFF;
+	}
+	.logo{
+		width:10%;
+		height:22px;
+		float:left;
+		padding-top:2%;
+	}
+	.search{
+		width:70%;
+		height:35px;
+		float:right;
+		padding-top:3%;
+		padding-right:5%;
+		text-align:center;
+	}
+	.bookmark{
+		clear:both;
+		width:auto;
+		height:35px;
+		float:none;
+		text-align:center;
+		line-height:35px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+	}
+	.choose_style{
+		/*width:auto;
+		float:none;
+		text-align:center;
+		padding-top:6px;*/
+		display:none;
+	}
+	.wrapper_header, .wrapper_menu{
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.bg_menu{
+		width:100%;
+		background:#CCC;
+		height:56px;
+	}
+	.keyword{
+		width:50%;
+	}
+	/*End Header*/
+	.tintuctheotheloai, .tintuctheotheloai_title{
+		width:100%;
+		height:auto;
+	}
+	.tintuctheotheloai_baiviet img{
+		margin-left:5%;
+		width:50%;
+		height:auto;
+	}
+	.date-time{
+		padding-left:5px;
+	}
+	.phantrang{
+	 width:100%;
+	}
+	.tintieudiem{
+		width:100%;
+	}
+	
+	/*Start Kết quả tìm*/
+	.ketquatimkiem{
+		width:100%;
+	}
+	.ketquatim_title{
+	}
+	.ketquatim_baiviet{
+		width:100%;
+	}
+	.ketquatim_baiviet img{
+		width:96%;
+		height:auto;
+		padding-left:2%;
+		margin-bottom:10px;
+		
+	}
+	.ketquatim_baiviet h1{
+		padding-left:2%;
+	}
+	.ketquatim_baiviet p{
+		padding-left:2%;
+		margin:5px;
+	}
+	.ketquatim_info{
+		width:100%;
+		line-height:20px;
+		height:20px;
+	}
+	/*End Kết quả tìm*/
+	.search_error{
+		width:100%;
+		height:auto;
+	}
+	.cacdanhmuckhac, .cacdanhmuckhac_last{
+		width:98%;
+		padding-left:1%;
+		height:auto;
+		margin-bottom:20px;
+	}
+}
+@media only screen and (min-width:479px) and (max-width:767px){
+	.game{
+		width:100%;
+		height:650px;
+	}
+	.banner img{
+		width:100%;
+	}
+	.quangcao img{
+		width:70%;
+	}
+	.sitemap_box, .sitemap_box_1{
+		width:50%;
+		height:auto;
+		margin-right:0;
+		margin-top:0;
+		border-right:0;
+		text-align:center;
+	}
+	.sitemap{
+		padding-left:0;
+	}
+	.wrapper{
+		width:100%;
+	}
+	.content_left{
+		width:100%;
+		float:none;
+	}
+	.content_right{
+		clear:both;
+		width:100%;
+		float:none;
+	}
+	.tintucmoi{
+		width:100%;
+	}
+	.tintucmoi_col_1{
+		width: 70%;
+		float:left;	
+	}
+	.tintucmoi_col_1 img{
+		width:90%;
+		margin: 2% 0% 2% 4%;
+		height:auto;
+	}
+	.tintucmoi_col_2{
+		width: 27%;
+		float:right;
+	}
+	.tintuc_1 img{
+		width:100%;
+	}
+	.tintuc_5_12 img{
+		display:none;
+	}
+	.tintuc_2_4, .tintuc_2_4_last{
+		width:30%;
+	}
+	.tintuc_2_4 img, .tintuc_2_4_last img{
+		width:100%;
+	}
+	.stt-3, .stt-4, .stt-5, .stt-6, .vertical-bar-2, .vertical-bar-3, .vertical-bar-4, .vertical-bar-5, .vertical-bar-6{
+		display:none;
+	}
+	.baianhvideo{
+		margin-top:20px;
+		width:100%;
+		clear:both;
+	}
+	.baianhvideo_title{
+		padding-left:2%;
+		width:98%;
+	}
+	.box_baianhvideo, .box_baianhvideo_last{
+		width:46%;
+		margin-right:2%;
+		margin-left:2%;
+	
+	}
+	.box_baianhvideo > img, .box_baianhvideo_last > img{
+		width: 90%;
+		margin-left:5%;
+		margin-right:5%;
+		height: 70%;
+	}
+	.box_baianhvideo > h4, .box_baianhvideo_last > h4{
+		width: 90%;
+		margin-left:5%;
+		margin-right:5%;
+	}
+	.tintucmoitheloai{
+		width:100%;
+	}
+	.tintucmoitheloai_title{
+		width:100%;
+		height:auto;
+	}
+	.tintheloai_col_1{
+		width:100%;
+		float:none;
+	}
+	.tintheloai_col_2{
+		width:100%;
+		float:none;
+	}
+	.tintheloai_1{
+		width:100%;
+	}
+	.tintheloai_2 img{
+		display:none;
+	}
+	.tintheloai_2{
+		margin-top:15px;
+		margin-left:10px;
+		margin-bottom:10px;
+		float:left;
+		clear:both;
+	}
+	.tintucmoitheloai_cen{
+		width:100%;
+	}
+	.tintheloai_3_6 h5{
+		margin-left:10px;
+		margin-top:5px;
+		line-height:20px;
+	}
+	.tintheloai_3_6{
+		margin-left:20px;
+		margin-right:5%;
+		background:#EEE;
+		border-radius: 50px;
+	}
+	.hide_away{
+		display:none;
+	}
+	.chuyendemoinhat{
+		width:100%;
+		box-sizing:border-box;
+	}
+	.baiviet_1{
+		text-align:center;
+	}
+	.tindocnhieu{
+		clear:both;
+		width:100%;
+		box-sizing:border-box;
+	}
+	.blog{
+		width:100%;
+	}
+	.blog_title{
+		width:98%;
+		padding-left:2%;
+	}
+	.box_blog{
+		margin-right:2%;
+	}
+	.box_blog, .box_blog_last{
+		width:48%;
+		height:auto;
+		float:left;
+		border-right:0;
+	}
+	.blog_tin_1{
+		font-size:20px;
+		text-align:center;
+	}
+	.blog_tin_2_3 h5, .blog_tin_1 h5{
+		font-size:16px;
+	}
+	.gameonline, .gameonline_title{
+		width:100%;
+	}
+	.box_game{
+		width:48%;
+		float:left;
+		margin-right:1%;
+		text-align:center;
+	}
+	.gameonline img{
+		width:80%;
+	}
+	.box_game_last{
+		width:48%;
+		float:left;
+		text-align:center;
+	}
+	.wrapper_menu{
+		width:100%;
+	}
+			/*Start Header*/
+	.header_top{
+		width:100%;
+		height:50%;
+		background-color: #000;
+		color: #FFF;
+	}
+	.logo{
+		width:10%;
+		height:22px;
+		float:left;
+		padding-top:2%;
+	}
+	.search{
+		width:70%;
+		height:35px;
+		float:right;
+		padding-top:3%;
+		padding-right:10%;
+		text-align:center;
+	}
+	.bookmark{
+		clear:both;
+		width:auto;
+		height:35px;
+		float:none;
+		text-align:center;
+		line-height:35px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+	}
+	.choose_style{
+		/*width:auto;
+		float:none;
+		text-align:center;
+		padding-top:6px;*/
+		display:none;
+	}
+	.wrapper_header, .wrapper_menu{
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.bg_menu{
+		width:100%;
+		background:#CCC;
+		height:56px;
+	}
+	.keyword{
+		width:70%;
+	}
+	/*End Header*/
+	.tintuctheotheloai, .tintuctheotheloai_title{
+		width:100%;
+		height:auto;
+	}
+	.tintuctheotheloai_baiviet img{
+		margin-left:2%;
+		width:35%;
+		height:auto;
+	}
+	.date-time{
+		padding-left:5px;
+	}
+	.phantrang{
+	 width:100%;
+	}
+	.tintieudiem{
+		width:100%;
+	}
+	/*Start Kết quả tìm*/
+	.ketquatimkiem{
+		width:100%;
+	}
+	.ketquatim_title{
+	}
+	.ketquatim_baiviet{
+		width:100%;
+	}
+	.ketquatim_baiviet img{
+		width:45%;
+		height:auto;
+		padding-left:2%;
+		margin-bottom:10px;
+		
+	}
+	.ketquatim_baiviet h1{
+		padding-left:2%;
+	}
+	.ketquatim_baiviet p{
+		padding-left:2%;
+		margin:5px;
+	}
+	.ketquatim_info{
+		width:100%;
+		line-height:20px;
+		height:20px;
+	}
+	/*End Kết quả tìm*/
+	.search_error{
+		width:100%;
+		height:auto;
+	}
+	.cacdanhmuckhac, .cacdanhmuckhac_last{
+		width:98%;
+		padding-left:1%;
+		height:auto;
+		margin-bottom:20px;
+	}
+}
+@media only screen and (min-width:767px) and (max-width:1024px){	/*Không hiểu tại sao khi chỉnh 768px thì trên trình duyệt tại 768px ko có tác dụng!*/
+	.wrapper{
+		width:100%;
+	}
+	.banner img{
+		width:100%;
+	}
+	.quangcao img{
+		width:100%;
+	}
+	.content_left{
+		width:100%;
+	}
+	.content_right{
+		display:none;
+	}
+	.tintucmoi{
+		width:100%;
+	}
+	.tintucmoi_col_1{
+		width: 70%;
+		float:left;	
+	}
+	.tintucmoi_col_1 img{
+		width:90%;
+		margin: 2% 0% 2% 3%;
+		height:auto;
+	}
+	.tintucmoi_col_2{
+		width: 27%;
+		float:right;
+	}
+	.tintuc_1 img{
+		width:100%;
+	}
+	.tintuc_5_12 img{
+		display:none;
+	}
+	.tintuc_2_4, .tintuc_2_4_last{
+		width:30%;
+	}
+	.tintuc_2_4 img, .tintuc_2_4_last img{
+		width:100%;
+	}
+	.baianhvideo{
+		margin-top:20px;
+		width:100%;
+	}
+	.baianhvideo_title{
+		padding-left:2%;
+		width:98%;
+	}
+	.tintucmoitheloai{
+		width:100%;
+	}
+	.tintucmoitheloai_title{
+		width:100%;
+		height:auto;
+	}
+	.tintheloai_col_1{
+		width:48%;
+		float:left;
+	}
+	.tintheloai_col_2{
+		width:48%;
+		float:right;
+	}
+	.tintheloai_1{
+		width:100%;
+	}
+/*	.tintheloai_2 img{
+		display:none;
+	}*/
+	.tintheloai_2{
+		/*margin-top:15px;*/
+		margin-left:10px;
+		margin-bottom:10px;
+		float:left;
+		clear:both;
+	}
+	.tintucmoitheloai_cen{
+		width:100%;
+	}
+	.tintheloai_3_6 h5{
+		margin-left:10px;
+		margin-top:5px;
+		line-height:20px;
+	}
+	.tintheloai_3_6{
+		/*margin-left:20px;*/
+		margin-right:5%;
+		/*background:#EEE;
+		border-radius: 50px;*/
+	}
+	.blog{
+		width:100%;
+	}
+	.blog_title{
+		width:98%;
+		padding-left:2%;
+	}
+	.box_blog, .box_blog_last{
+		width:24%;
+	}
+	.gameonline, .gameonline_title, .bg_gameonline{
+		width:100%;
+	}
+	.box_game, .box_game_last{
+		float:left;
+		margin-bottom:20px;
+		width:24%;
+	}
+	.box_game img, .box_game_last img {
+		width:100%;
+	}
+	.wrapper_menu{
+		width:100%;
+	}
+	/*Start Header*/
+	.header_top{
+		width:100%;
+		height:auto;
+		background-color: #000;
+	}
+	.logo{
+		width:10%;
+		height:35px;
+		float:left;
+		padding-top:0.5%;
+	}
+	.search{
+		width:40%;
+		height:35px;
+		float:left;
+		padding-top:1%;
+		padding-right:5%;
+		text-align:center;
+	}
+	.bookmark{
+		width:auto;
+		height:35px;
+		padding-right:20px;
+		float:left;
+		text-align:left;
+		line-height:35px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+	}
+	.choose_style{
+		width:100%;
+		height:35px;
+		float:none;
+		text-align:left;
+		padding-top:1%;
+	}
+	.wrapper_header, .wrapper_menu{
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.bg_menu{
+		clear:both;
+		width:100%;
+		background:#CCC;
+		height:56px;
+	}
+	.keyword{
+		width:70%;
+	}
+	/*End Header*/
+	.tintuctheotheloai, .tintuctheotheloai_title{
+		width:100%;
+	}
+	.tintuctheotheloai_baiviet img{
+		margin-left:2%;
+		width:25%;
+		height:auto;
+	}
+	.date-time{
+		padding-left:5px;
+	}
+	/*Start Kết quả tìm*/
+	.ketquatimkiem{
+		width:100%;
+	}
+	.search_error{
+		width:100%;
+	}
+}

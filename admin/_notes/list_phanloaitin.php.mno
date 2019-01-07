@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsphanloaitin1" value="name:tenphanloaitin;datatype:string,name:ID_phanloaitin;datatype:int" />
+</info>

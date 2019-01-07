@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_loctinchuyende" value="name:ID_theloaigame;datatype:int,name:tentheloaigame;datatype:string,name:ID_game;datatype:int,name:tengame;datatype:string,name:hinhgame;datatype:string,name:trichdangame;datatype:blob,name:solanchoi;datatype:int,name:solandownload;datatype:int,name:hot;datatype:int,name:ngaycapnhat;datatype:datetime,name:kiemduyet;datatype:int" />
+</info>

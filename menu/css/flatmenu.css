@@ -1,0 +1,360 @@
+
+/*
+--------------------------------------------------------------
+Product Name: Golden - Responsive Flat Dropdown Menu
+Product Version: 1.0
+Author: Igga Elia (elflaire)
+Author URL: http://doptiq.com 
+Author Portifolio: http://codecanyon.net/user/elflaire/portfolio 
+E-mail: hello@doptiq.com 
+Updates: Initial Release - 28th/Aug/2013
+-------------------------------------------------------------- */
+
+/* Resets for Demo 
+------------------------------------------------- */
+html { 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%; 
+}
+
+
+html, body{ 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	font-size: 100%; 
+	vertical-align: baseline;
+}
+
+.container { }
+.clear:before,.clear:after{content:'';display:table; }
+.clear:after{clear:both;}
+.clear{zoom:1;}
+
+/* Start Menu Styling 
+--------------------------------------------- */
+
+.nav{ 
+	height:49px; 
+	position:relative; 
+	z-index:10;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.nav ul, 
+.nav ol, 
+.nav dl, 
+.nav li { 
+	line-height:1.5em;
+	list-style:none; 
+}
+
+/* Hide responsive menu trigger 
+--------------------------------------------- */
+.menu-icon { display:none; }
+
+/* Start dropdown menu styling 
+--------------------------------------------- */
+ul.dropdown,
+ul.dropdown li,
+ul.dropdown ul { 
+	margin: 0; 
+	padding: 0; 
+	
+}
+
+ul.dropdown{
+	float:left;
+	width:100%; 
+	position: relative; 
+}
+
+ul.dropdown li { 
+	float: left; 
+	vertical-align: middle; 
+	zoom: 1; /* IE6 */
+}
+
+/* General list styling 
+-------------------------------------------- */
+ul.dropdown li {  
+	font-size:12px; 
+	font-weight:bold;
+	text-transform:none; 
+}
+
+/* General links styling 
+-------------------------------------------- */
+ul.dropdown a,
+ul.dropdown a:visited,	
+ul.dropdown a:hover, 		
+ul.dropdown a:active { 
+	text-decoration: none; 
+}
+
+ul.dropdown a, 
+ul.dropdown span { 
+	display: block;
+	outline:none; 
+	cursor:pointer; 
+	padding:14px 11px;
+	position:relative; 
+}
+
+ul.dropdown ul a,
+ul.dropdown ul span {  
+	padding:12px 15px; 
+}	
+
+ul.dropdown li:hover, 
+ul.dropdown li.hover { 
+	position: relative; 
+	cursor:pointer; 
+}
+
+/* Level I+ 
+--------------------------------------- */
+ul.dropdown ul { 
+	display:none; 
+	position: absolute;
+	z-index: 598;
+	width: 200px; 
+	top: 100%; 
+	left: 0; 
+}
+
+ 
+ul.dropdown li:hover > ul{ 
+	display:block;
+}
+
+ul.dropdown ul li { 
+	float: none;
+	font-size:13px;
+	font-weight: normal; 
+	text-transform:none;
+	position:relative; 
+}
+
+ul.dropdown ul li.hover, 
+ul.dropdown ul li:hover { /* background-color:#2ECC71; color: #fff; */ }
+ul.dropdown ul li a:hover { /* color: #fff; */ }
+	
+/* Level II +  
+---------------------------------------- */
+ul.dropdown ul ul { top:0; left:100%; }
+
+
+/* Add trailing arrows 
+---------------------------------------- */	
+ul.dropdown *.sub { 
+	padding-right:15px; 
+	background-image: url(../images/nav-arrow-down-thin.gif); 
+	background-position: 95% 50%; 
+	background-repeat: no-repeat; 
+}
+
+ul.dropdown ul *.sub { 
+	padding-right: 15px; 
+	background-image: url(../images/nav-arrow-right-thin.gif);
+	background-position: 100% 50%; 									  
+	background-repeat: no-repeat; 
+}
+
+/* Change trailing arrows on :hover IE7+
+--------------------------------------------------------- */
+ul.dropdown li.sub:hover{  background-image: url(../images/nav-arrow-down.gif); } 
+ul.dropdown ul li.sub:hover{ background-image: url(../images/nav-arrow-right.gif);  }
+
+/* font-awesome icons */
+ul.dropdown li i{ font-size:14px; margin-right:8px; }
+.item-icon-sub{ padding-right: 5px!important;  background-position: 80% 50%!important; 	 }
+.item-icon-sub i{margin-right:0;}
+
+
+/* menubar badges / notifications */
+
+ul.dropdown li .badge {
+  display: block;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  line-height: 16px;
+  height: 16px;
+  padding: 0 5px;
+  font-family: Arial, sans-serif;
+  font-size:11px;
+  color: white;
+  border: 1px solid;
+  border-radius: 16px;
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+ul.dropdown li .badge {
+  background: #67c1ef;
+  border-color: #30aae9;
+  background-image: -webkit-linear-gradient(top, #acddf6, #67c1ef);
+  background-image: -moz-linear-gradient(top, #acddf6, #67c1ef);
+  background-image: -o-linear-gradient(top, #acddf6, #67c1ef);
+  background-image: linear-gradient(to bottom, #acddf6, #67c1ef);
+}
+
+ul.dropdown li .badge.green {
+  background: #77cc51;
+  border-color: #59ad33;
+  background-image: -webkit-linear-gradient(top, #a5dd8c, #77cc51);
+  background-image: -moz-linear-gradient(top, #a5dd8c, #77cc51);
+  background-image: -o-linear-gradient(top, #a5dd8c, #77cc51);
+  background-image: linear-gradient(to bottom, #a5dd8c, #77cc51);
+}
+
+ul.dropdown li .badge.yellow {
+  background: #faba3e;
+  border-color: #f4a306;
+  background-image: -webkit-linear-gradient(top, #fcd589, #faba3e);
+  background-image: -moz-linear-gradient(top, #fcd589, #faba3e);
+  background-image: -o-linear-gradient(top, #fcd589, #faba3e);
+  background-image: linear-gradient(to bottom, #fcd589, #faba3e);
+}
+
+ul.dropdown li .badge.red {
+  background: #fa623f;
+  border-color: #fa5a35;
+  background-image: -webkit-linear-gradient(top, #fc9f8a, #fa623f);
+  background-image: -moz-linear-gradient(top, #fc9f8a, #fa623f);
+  background-image: -o-linear-gradient(top, #fc9f8a, #fa623f);
+  background-image: linear-gradient(to bottom, #fc9f8a, #fa623f);
+}
+
+
+
+/* Main menu seperator 
+---------------------------------------------- */																		  								  
+ul.dropdown li.divider{ 
+	padding:0!important; 
+	margin:0!important; 
+	border:0!important;
+	display:block; 
+	height:49px; 
+	float:left;
+	width:1px; 
+}
+
+ul.dropdown li.rtl ul { position: absolute; top: 100%; right:0; z-index: 598; left:auto; }
+ul.dropdown li.rtl ul ul { top:0; right:100%; left:auto; }
+ul.dropdown li.ltr ul, ul.dropdown li.ltr ul ul { top:0; left:100%!important; right:auto!important; }
+
+/* Theme settings - Change your menu colors, bgcolors, border-colors
+---------------------------------------------------------------------- */
+
+/* Theme emerald black */
+.emerald-black, 
+.emerald-black ul.dropdown { background:#CCC; }	/*Màu nền menu cấp 1*/
+.emerald-black ul.dropdown ul { background:#CACAD9; } /*Màu nền menu cấp 2*/
+
+.emerald-black ul.dropdown a,
+.emerald-black ul.dropdown a:visited,	
+.emerald-black ul.dropdown a:hover, 		
+.emerald-black ul.dropdown a:active, 
+.emerald-black ul.dropdown li  { color: #000; } /*Màu chữ*/
+
+.emerald-black ul.dropdown li:hover, 
+.emerald-black ul.dropdown li.hover {  background-color:#999; color: #FFF; }
+.emerald-black ul.dropdown ul li {   border-bottom:1px solid #34495E;  }
+
+.emerald-black ul.dropdown ul li.hover, 
+.emerald-black ul.dropdown ul li:hover { background-color:#2ECC71;  color: #fff; }
+.emerald-black ul.dropdown ul li a:hover { color: #fff; }
+.emerald-black ul.dropdown li.divider{ background:#F00;  } /*Màu kẻ vạch phân cách*/
+
+
+/* Responsiveness 
+------------------------------------- */
+
+/* All device screens < = 768px */
+@media screen and (max-width: 768px) {
+
+/* Responsive menu trigger 
+------------------------------------ */
+.menu-icon, 
+.menu-icon span, 
+.menu-icon { 
+	color: #fff; 
+	width:100%; 
+	height:50px; 
+	line-height:40px; 
+	padding:5px; 
+	font-size:1.3em; 
+	font-weight:bold; 
+	cursor: pointer; 
+	display:block;
+	position:relative;	
+}
+	
+.menu-icon span{ 	/*Nút hình vuông khi Responsive*/
+	width: auto;
+	padding:0 15px;
+	padding-left:40px; 
+	height:40px; 
+	background:#333 url(../images/nav-toggle.png) center no-repeat ; 
+	color:#FFFFFF;
+	text-align: center;
+	text-indent:-999em; 
+	display: inline-block;
+	position:absolute;
+	top:5px;
+	right:5px;
+	 
+}
+
+/* Style these as desired 
+ * - colors, bgclors etc 
+------------------------------- */
+.menu-icon:hover { }
+.menu-icon:hover span{ }
+.menu-icon.active { }
+.menu-icon.active span{ }
+
+
+/* Responsive menu styling  
+--------------------------------- */
+.nav{ position:relative;  }
+.nav,
+ul.dropdown, 
+.menu-icon, 
+.menu-icon span, 
+ul.dropdown *{ box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; } 	
+ul.dropdown{  display:none; position: relative; top:-1px; border-top:1px solid #4AD786 ; }
+ul.dropdown  li { position:relative; float:none; display:block; border-bottom:1px solid #000 ;}
+ul.dropdown  li li{ border-top:0;}
+ul.dropdown  ul a{ padding-left:25px; }
+ul.dropdown  ul ul a{ padding-left:45px; }
+ul.dropdown  ul a:hover  { background-color:#34495E;}
+ul.dropdown  li.sub ul > li{ /*border-top:1px solid;*/ }
+ul.dropdown *.sub { padding:0!important; background-image: none!important; }
+ul.dropdown ul{ overflow: hidden; max-height: 0; width:auto; display:block; position: static; }
+ul.dropdown ul.current { display:block; max-height:100em; }
+ul.dropdown li.sub > a{ padding-right:25px; }
+ul.dropdown li.sub > a.current{ background:#27AE60;  }
+ul.dropdown li.sub > ul a.current{ background:#1E2935;  }
+ul.dropdown li.sub > a:after, 
+ul.dropdown li.sub > a.current:after { position: absolute; top: 0; right: 0; display: block; font-size: 1.5em; padding: 0.55em 0.5em; }
+ul.dropdown li.sub > a:after { content: '\002B'; }	
+ul.dropdown li.sub > a.current:after { content: "\2013"; top:-2px; }	
+ul.dropdown li.rtl ul, 
+ul.dropdown li.ltr ul, 
+ul.dropdown li.ltr ul ul, 
+ul.dropdown li.rtl ul ul { position:static; }
+ul.dropdown li.divider{ display:none!important; }
+ul.dropdown li .badge { top: 15px; right: 15px; }
+
+}
+
+/* All device screens >  768px */
+@media screen and (min-width: 769px) {
+	/* Avoid responsive menu hiding on browser window resize 
+	-------------------------------------------------------------- */
+	ul.dropdown{ display:block !important ; }
+	 
+}

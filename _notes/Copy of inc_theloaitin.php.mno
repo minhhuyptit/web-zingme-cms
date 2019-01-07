@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_theloai" value="name:ID_theloai;datatype:int,name:tentheloai;datatype:string,name:ID_tintuc;datatype:int,name:tieudetin;datatype:string,name:hinhtrichdan;datatype:string,name:trichdantin;datatype:blob,name:kiemduyet;datatype:int,name:ngaycapnhat;datatype:datetime,name:ID_theloaitin;datatype:int,name:tentheloaitin;datatype:string" />
+	<infoitem key="UD_rs_theloaitin" value="name:ID_theloai;datatype:int,name:keyword;datatype:string,name:tentheloai;datatype:string,name:ID_tintuc;datatype:int,name:tieudetin;datatype:string,name:hinhtrichdan;datatype:string,name:trichdantin;datatype:blob,name:kiemduyet;datatype:int,name:ngaycapnhat;datatype:datetime,name:ID_theloaitin;datatype:int,name:tentheloaitin;datatype:string" />
+	<infoitem key="UD_rs_theloaitintin" value="name:ID_theloai;datatype:int,name:tentheloai;datatype:string,name:ID_tintuc;datatype:int,name:tieudetin;datatype:string,name:hinhtrichdan;datatype:string,name:trichdantin;datatype:blob,name:kiemduyet;datatype:int,name:ngaycapnhat;datatype:datetime,name:ID_theloaitin;datatype:int,name:tentheloaitin;datatype:string" />
+	<infoitem key="UD_rs_danhmuctincap2" value="name:ID_theloaitin;datatype:int,name:tentheloaitin;datatype:string,name:ID_theloai;datatype:int,name:tentheloai;datatype:string,name:visible2;datatype:int,name:keyseo;datatype:string,name:keyword;datatype:string,name:sapxep;datatype:int" />
+</info>
